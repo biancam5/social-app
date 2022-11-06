@@ -84,7 +84,7 @@ const Rightbar = () => {
         <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/3.jpg" />
+          <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/2.jpg" />
         </ListItemAvatar>
         <ListItemText
           primary="Brunch this weekend?"
@@ -96,7 +96,7 @@ const Rightbar = () => {
                 variant="body2"
                 color="text.primary"
               >
-                Ali Connors
+                John Connors
               </Typography>
               {" — I'll be in your neighborhood doing errands this…"}
             </React.Fragment>
@@ -106,7 +106,7 @@ const Rightbar = () => {
       <Divider variant="inset" component="li" />
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
+          <Avatar alt="Travis Howard" src="/static/images/avatar/1.jpg"sx={{ bgcolor: "green" }} />
         </ListItemAvatar>
         <ListItemText
           primary="Summer BBQ"
@@ -128,7 +128,7 @@ const Rightbar = () => {
       <Divider variant="inset" component="li" />
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" sx={{ bgcolor: "red" }}/>
         </ListItemAvatar>
         <ListItemText
           primary="Hello !"

@@ -1,4 +1,4 @@
-import { Mail, Notifications, Pets } from "@mui/icons-material";
+import { Mail, Notifications } from "@mui/icons-material";
 import {
   AppBar,
   Avatar,
@@ -14,9 +14,7 @@ import {
 } from "@mui/material";
 import React, { useState } from "react";
 import { useAuth0 } from "@auth0/auth0-react";
-import StarsIcon from '@mui/icons-material/Stars';
-
-
+import Heart from '@mui/icons-material/VolunteerActivism';
 const StyledToolbar = styled(Toolbar)({
   display: "flex",
   justifyContent: "space-between",
@@ -54,17 +52,17 @@ const Navbar = () => {
   return (
     <AppBar position="sticky">
       <StyledToolbar>
-        <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>
-            ♥ KoreaShare 
+        <Typography variant="h5" sx={{ display: { xs: "none", sm: "block" ,fontFamily: 'Raleway, Arial',} }}>
+            <Heart /> SocialNet
         </Typography>
-        <Pets sx={{ display: { xs: "block", sm: "none" } }} />
+        <Heart sx={{ display: { xs: "block", sm: "none" } }} />
         <Search>
           <InputBase placeholder="search..." />
         </Search>
         <Icons>
-        
-        <Button variant="contained" onClick={loginWithRedirect}>Login</Button>
-          <Button variant="contained" onClick={() => logout({ returnTo: window.location.origin })}>Logout</Button>
+        { isAuthenticated ? <Button variant="contained" onClick={() => logout({ returnTo: window.location.origin })}>Logout</Button>
+       : <Button variant="contained" onClick={loginWithRedirect}>Login</Button>
+           }
           <Badge badgeContent={4} color="error">
             <Mail />
           </Badge>
