@@ -1,8 +1,8 @@
 {
-  "homepage":"http//:biancam5.github.io/social-app",
+  "homepage":"https//:biancam5.github.io/social-app",
   "name": "mui",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@auth0/auth0-react": "^1.12.0",
     "@emotion/react": "^11.9.0",
