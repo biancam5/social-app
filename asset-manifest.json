@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/http//:biancam5.github.io/social-app/static/js/main.827c3fbf.js",
-    "index.html": "/http//:biancam5.github.io/social-app/index.html",
-    "main.827c3fbf.js.map": "/http//:biancam5.github.io/social-app/static/js/main.827c3fbf.js.map"
+    "main.js": "/https//:biancam5.github.io/social-app/static/js/main.827c3fbf.js",
+    "index.html": "/https//:biancam5.github.io/social-app/index.html",
+    "main.827c3fbf.js.map": "/https//:biancam5.github.io/social-app/static/js/main.827c3fbf.js.map"
   },
   "entrypoints": [
     "static/js/main.827c3fbf.js"
