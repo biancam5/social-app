@@ -34,7 +34,7 @@ const UserBox = styled(Box)({
   marginBottom: "20px",
 });
 
-const Add = () => {
+const AddPost = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
@@ -107,4 +107,4 @@ const Add = () => {
   );
 };
 
-export default Add;
+export default AddPost;

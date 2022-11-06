@@ -2,8 +2,8 @@ import Sidebar from "./components/Sidebar";
 import Feed from "./components/Feed";
 import Rightbar from "./components/Rightbar";
 import { Box, createTheme, Stack, ThemeProvider } from "@mui/material";
-import Navbar from "./components/Navbar";
-import Add from "./components/Add";
+import Socialnavbar from "./components/Socialnavbar";
+import AddPost from "./components/AddPost";
 import { useState } from "react";
 
 function App() {
@@ -18,13 +18,13 @@ function App() {
   return (
     <ThemeProvider theme={darkTheme}>
       <Box bgcolor={"background.default"} color={"text.primary"}>
-        <Navbar /> 
+        <Socialnavbar /> 
         <Stack direction="row" spacing={2} justifyContent="space-between">
         <Sidebar setMode={setMode} mode={mode}/>
           <Feed />
           <Rightbar />
         </Stack>
-        <Add />
+        <AddPost />
       </Box>
     </ThemeProvider>
   );

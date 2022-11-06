@@ -44,7 +44,7 @@ const UserBox = styled(Box)(({ theme }) => ({
     display: "none",
   },
 }));
-const Navbar = () => {
+const SocialNavbar = () => {
   const [open, setOpen] = useState(false);
   const { isAuthenticated } = useAuth0();
   const { loginWithRedirect } = useAuth0();
@@ -108,4 +108,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default SocialNavbar;
