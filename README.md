@@ -9,7 +9,7 @@ https://social-app-korea.netlify.app/
 
 
 
-# Features that the apps have :
+# Features of the app :
 - Login/Logout (Auth0 )  
 - Beautiful design and Responsive for all devices
 - Dark and Light mode (Toggle)
